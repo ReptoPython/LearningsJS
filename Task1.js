@@ -84,15 +84,19 @@
 //         alert("У вказану країну доставка неможлива!");
 // }
 
-
-let total = 0;
-let inputNum;
-do{
-    inputNum = prompt("Введіть число:");
-} while (inputNum !== null){
-    total += inputNum;
-    alert("Сума значень "+ total);
-}
-if(inputNum <= 0){
-    alert("Було введено не числове значення!");
-}
+// let total = 0;
+// let inputNum;
+// do{
+//     inputNum = prompt("Введіть число:");
+//     if (isNaN(inputNum)){
+//         alert("Введено не числове значення")}
+//     else{
+//         if(inputNum !== null){
+//             total += parseInt(inputNum);
+//         }
+//     }
+//     console.log(total);
+// } while (inputNum !== null){
+//     console.log(total);
+//         alert(`Сума значень дорівнює ${total}`);
+// }
